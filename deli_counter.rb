@@ -20,6 +20,5 @@ def take_a_number(line,name)
 end
 
 def now_serving
-  puts line[0]
-  
+  line[0].shift
 end
